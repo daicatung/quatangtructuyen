@@ -1,0 +1,442 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FontEnd.master.cs" Inherits="QuaTrucTuyen247.page.FontEnd" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../Css/base.css" />
+    <link rel="stylesheet" href="../Css/gird.css" />
+    <link rel="stylesheet" href="../Css/style.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="backgound-header">
+      <header class="grid wide header-container">
+        <div class="header-menu">
+          <div class="header-menu-left">
+            <img
+              src="../Images/logo-quatructuyen_trang_1_5.png"
+              alt=""
+              class="header-img"
+            />
+            <input
+              type="checkbox"
+              id="locationClick"
+              hidden
+              name="locationClick"
+            />
+
+            <label for="locationClick">
+              <div class="header-location">
+                <i class="fas fa-map-marker-alt header-location-icon"></i>
+                <div class="header-location-detail">
+                  <span>Nhận quà tại</span>
+                  <span style="font-weight: 500"
+                    >Tỉnh thành khác<i
+                      style="margin-left: 15px"
+                      class="fas fa-caret-down"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </label>
+            <div class="header-locationDetail">
+              <ul class="locationDetail-list">
+                <li class="locationDetail-item">Hà Nội</li>
+                <li class="locationDetail-item">Hồ Chí Minh</li>
+                <li class="locationDetail-item">Tỉnh Thành Khác</li>
+              </ul>
+            </div>
+          </div>
+          <ul class="header-list" style="min-width: 600px;">
+            <li class="header-item nav-item nav-d2">
+              <a href="#" class="nav-item-link">
+                Trang trí
+                <div class="show-sub sub-nav-d2">
+                  <div class="row">
+                    <div class="col l-6">
+                      <div class="sub-nav-menu">
+                        <a href="" class="sub-nav-subLink new"> Hoa </a>
+                        <ul class="sub-nav-list">
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink"> Khô </a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink"> Bất Tử </a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink"> Hồng Sáp </a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink">Hoa Trang Trí</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col l-6">
+                      <div class="sub-nav-menu">
+                        <a href="#" class="sub-nav-subLink"> Để Bàn </a>
+                        <ul class="sub-nav-list">
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink"> Mô Hình Thuyền Buồm </a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink"> Lọ Hoa </a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink hot-sale">Mèo Thần Tài</a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink">Hộp Nhạc</a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink">Đồ Phong Thủy</a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink"> Khung Ảnh </a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink"> Đồng Hồ Để Bàn </a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink">Mô Hình</a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink">Gạt Tàn</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                      <div class="col l-6">
+                      <div class="sub-nav-menu">
+                        <a href="" class="sub-nav-subLink"> Treo </a>
+                        <ul class="sub-nav-list">
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink"> Đồng Hồ Treo Tường </a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink"> Trang Trí Treo </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                      <div class="col l-6">
+                      <div class="sub-nav-menu">
+                        <a href="" class="sub-nav-subLink"> Đồ Lưu Trữ </a>
+                        <ul class="sub-nav-list">
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink"> Bộ Đựng Gia Vị </a>
+                          </li>
+                          <li class="sub-nav-item">
+                            <a href="" class="sub-nav-itemLink"> Kệ Hộp Túi Đựng Đồ </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                      <div class="col l-6">
+                      <div class="sub-nav-menu">
+                        <a href="" class="sub-nav-subLink"> Thiệp Mừng/Hộp Quà </a>
+                      </div>
+                    </div>
+                      <div class="col l-6">
+                      <div class="sub-nav-menu">
+                        <a href="" class="sub-nav-subLink"> Socola Quà Tặng </a>
+                      </div>
+                    </div>
+                      <div class="col l-6">
+                      <div class="sub-nav-menu">
+                        <a href="" class="sub-nav-subLink"> Trang Trí Ô Tô </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="header-item nav-item nav-d1">
+              <a href="" class="nav-item-link"> Thời Trang </a>
+              <div class="sub-nav-d1">
+                <ul>
+                  <li class="sub-nav-itemLink sub-nav-d1-item sub-nav-itemMore">
+                    <a href="">Balo Túi Xách</a>
+                    <div class="sub-nav-itemLink--detail sub-nav-d1--detail">
+                      <ul>
+                        <li class="sub-nav-itemLink--detail-item">
+                          <a href="">Cho Nam</a>
+                        </li>
+                        <li class="sub-nav-itemLink--detail-item">
+                          <a href="">Cho Nữ</a>
+                        </li>
+                        <li class="sub-nav-itemLink--detail-item">
+                          <a href="">Túi Để Đồ</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href="">Trang Sức</a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Gương Trang Điểm </a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Ví Nam Nữ</a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Đồng Hồ </a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Vòng Tay Phong Thủy</a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Mỹ Phẩm </a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Khăn </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="header-item nav-item nav-d1">
+              <a href="" class="nav-item-link"> Tiện Ích </a>
+              <div class="sub-nav-d1">
+                <ul>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Bút Ký </a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Cốc Sứ </a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Đồ Dùng Văn Phòng </a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Phụ Kiện Du Lịch </a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Đèn - Trang Trí Ánh Sáng </a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Móc Khóa </a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Đồ Công Nghệ </a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item sub-nav-itemMore">
+                    <a href=""> Giải Trí - Xả Stress </a>
+                    <div class="sub-nav-itemLink--detail sub-nav-d1--detail">
+                      <ul>
+                        <li class="sub-nav-itemLink--detail-item">
+                          <a href=""> Cờ Vua - Cờ Tướng</a>
+                        </li>
+                        <li class="sub-nav-itemLink--detail-item">
+                          <a href=""> Súng Nước </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Đồ Dùng Nhà Bếp </a>
+                  </li>
+                  <li class="sub-nav-itemLink sub-nav-d1-item">
+                    <a href=""> Sổ Viết </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="header-item nav-item nav-d2">
+              <a href="" class="nav-item-link nav-item-link--new">Trẻ em</a>
+              <div class="show-sub sub-nav-d2">
+                <div class="row">
+                  <div class="col l-6">
+                    <div class="sub-nav-menu">
+                      <a href="#" class="sub-nav-subLink new"> Đồ Chơi </a>
+                      <ul class="sub-nav-list">
+                        <li class="sub-nav-item">
+                          <a href="" class="sub-nav-itemLink"> Đồ Chơi Gỗ </a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="" class="sub-nav-itemLink"> Súng Nước </a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="" class="sub-nav-itemLink"> Vận Động </a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="" class="sub-nav-itemLink"> Giáo Dục </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col l-6">
+                    <div class="sub-nav-menu">
+                      <a href="#" class="sub-nav-subLink"> Thú Bông </a>
+                      <ul class="sub-nav-list">
+                        <a href="" class="sub-nav-itemLink">
+                          <li class="sub-nav-item"> Khuyến Mãi Hấp Dẫn Đồ Bông 50% </li>
+                        </a>
+                        <li class="sub-nav-item">
+                          <a href="" class="sub-nav-itemLink"> Thú Bông </a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="" class="sub-nav-itemLink"> Gấu Hoạt Hình</a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="" class="sub-nav-itemLink"> Gấu Bông Hot </a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="" class="sub-nav-itemLink"> Bộ Chăn Trong Gối </a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="#" class="sub-nav-itemLink"> Gối Chữ U </a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="" class="sub-nav-itemLink"> Gối Ôm - Gối Đầu </a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="#" class="sub-nav-itemLink"> Gối Tựa Lưng</a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="#" class="sub-nav-itemLink"> Dép Bông </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="header-item nav-item nav-d1">
+              <a href="#" class="nav-item-link nav-d1 nav-item-link--new">Quà mới</a>
+                <div class="sub-nav-d1">
+                    <ul>
+                        <li class="sub-nav-itemLink sub-nav-d1-item">
+                            <a href=""> Tháng 10 </a>
+                        </li>
+                        <li class="sub-nav-itemLink sub-nav-d1-item">
+                            <a href=""> Tháng 11 </a>
+                        </li>
+                        <li class="sub-nav-itemLink sub-nav-d1-item">
+                            <a href=""> Tháng 12 </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="header-item nav-item nav-i6">
+              <a href="" class="nav-item-link">Đối tượng / Dịp</a>
+            </li>
+            <li class="header-item nav-item nav-i7">
+              <a href="#" class="nav-item-link">LuvGift</a>
+            </li>
+          </ul>
+
+          <div class="header-listIcon">
+            <input type="checkbox" hidden id="showSearchBox" />
+            <label for="showSearchBox">
+              <i class="fas fa-search header-icon"></i>
+            </label>
+            <div class="search-box">
+              <input type="text" placeholder="Quà tặng bạn muốn tìm kiếm" />
+              <label for="showSearchBox">
+                <i
+                  class="fas fa-times"
+                  style="
+                    color: #666670;
+                    min-width: 40%;
+                    line-height: 70px;
+                    padding: 0 15px;
+                  "
+                ></i>
+              </label>
+            </div>
+            <a
+              href=""
+              style="text-decoration: none; color: white; position: relative"
+            >
+              <i class="fas fa-cart-plus header-icon">
+                <span class="nofication-qnt">0</span>
+              </i>
+            </a>
+            <i class="fas fa-user header-icon"></i>
+          </div>
+      </header>
+    </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    <div class="grid footer">
+      <div class="grid wide footer-content">
+        <div class="web-intro">
+          <img
+            src="../Images/logo-quatructuyen_trang_1_5.png"
+            alt=""
+            class="web-intro-img"
+          />
+          <span>
+            Quatructuyen.com cung cấp những món quà tặng lưu niệm ý nghĩa, gói
+            gém và trao gửi một cách trân trọng. Bạn có thể chọn mua Quà trực
+            tiếp tại cửa hàng, Hoặc đặt quà Online để được chuyển trực tiếp đến
+            người nhận trong ngày tại Hà Nội, TpHCM và từ 2-5 ngày với khu vực
+            khác trên Toàn Quốc. Giới thiệu thêm
+          </span>
+        </div>
+        <div class="web-service">
+          <ul class="footer-sub-heading">
+            Về Quatructuyen.com
+          </ul>
+          <li>Giới thiệu</li>
+          <li>Dịch vụ</li>
+          <li>Blog tặng quà</li>
+          <li>Liên hệ</li>
+        </div>
+        <div class="web-customer">
+          <ul class="footer-sub-heading">
+            Khách hàng
+          </ul>
+          <li>Giới thiệu</li>
+          <li>Dịch vụ</li>
+          <li>Blog tặng quà</li>
+          <li>Liên hệ</li>
+          <span class="web-customer-payment">Hình thức thanh toán</span>
+          <img src="../Images/paymentquatructuyen.png" alt="">
+        </div>
+        <div class="shop-location">
+          <span class="shop-location-header">ĐỊA CHỈ CỬA HÀNG</span>
+          <ul class="shop-location-list">
+            <li class="shop-location-item">36 Ngõ 218 Tây Sơn, Đống Đa, Hà Nội</li>
+            <li class="shop-location-item">09461.36.218 - 0974.183180</li>
+            <li class="shop-location-item">8h30 sáng đến 8h30 tối - Từ thứ 2 đến Chủ Nhật</li>
+            <li class="shop-location-item">182/25 Lê Văn Sỹ, P.10, Q.Phú Nhuận, TP.HCM</li>
+            <li class="shop-location-item">098.10.182.25 - 0913.186277</li>
+            <li class="shop-location-item">8h30 sáng đến 8h30 tối  - Từ thứ 2 đến Chủ Nhật</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </form>
+</body>
+</html>

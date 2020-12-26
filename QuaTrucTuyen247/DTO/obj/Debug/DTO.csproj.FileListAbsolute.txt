@@ -1,0 +1,5 @@
+C:\Users\Admin\Documents\T_LearningHK7\ASP.net\QuaTrucTuyen247\DTO\bin\Debug\DTO.dll
+C:\Users\Admin\Documents\T_LearningHK7\ASP.net\QuaTrucTuyen247\DTO\bin\Debug\DTO.pdb
+C:\Users\Admin\Documents\T_LearningHK7\ASP.net\QuaTrucTuyen247\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\T_LearningHK7\ASP.net\QuaTrucTuyen247\DTO\obj\Debug\DTO.dll
+C:\Users\Admin\Documents\T_LearningHK7\ASP.net\QuaTrucTuyen247\DTO\obj\Debug\DTO.pdb
