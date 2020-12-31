@@ -8,3 +8,14 @@ C:\Users\Admin\Documents\T_LearningHK7\ASP.net\QuaTrucTuyen247\BUS\obj\Debug\BUS
 C:\Users\Admin\Documents\T_LearningHK7\ASP.net\QuaTrucTuyen247\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\Admin\Documents\T_LearningHK7\ASP.net\QuaTrucTuyen247\BUS\obj\Debug\BUS.dll
 C:\Users\Admin\Documents\T_LearningHK7\ASP.net\QuaTrucTuyen247\BUS\obj\Debug\BUS.pdb
+C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\BUS\bin\Debug\BUS.dll
+C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\BUS\bin\Debug\BUS.pdb
+C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\BUS\bin\Debug\DAL.dll
+C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\BUS\bin\Debug\DTO.dll
+C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\BUS\bin\Debug\DAL.pdb
+C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\BUS\bin\Debug\DTO.pdb
+C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.dll
+C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.pdb

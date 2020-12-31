@@ -106,6 +106,7 @@
     <Content Include="page\CSS\css\v4-shims.min.css" />
     <Content Include="page\CSS\gird.css" />
     <Content Include="page\CSS\style.css" />
+    <Content Include="page\DetailProducts.aspx" />
     <Content Include="page\Home.aspx" />
     <Content Include="page\images\anhheader.PNG" />
     <Content Include="page\images\logo-quatructuyen_trang_1_5.png" />
@@ -132,6 +133,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="page\DetailProducts.aspx.cs">
+      <DependentUpon>DetailProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\DetailProducts.aspx.designer.cs">
+      <DependentUpon>DetailProducts.aspx</DependentUpon>
+    </Compile>
     <Compile Include="page\FontEnd.Master.cs">
       <DependentUpon>FontEnd.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

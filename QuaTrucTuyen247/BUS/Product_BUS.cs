@@ -25,7 +25,7 @@ namespace BUS
 
         public DataTable Show8AProduct(int id)
         {
-            string sql = "SELECT * FROM   Product WHERE CategoryID=" + id;
+            string sql = "SELECT * FROM   Product WHERE CategoryID='" + id+"'" ;
             DataTable dt = new DataTable();
             dt = da.GetTable(sql);
             return dt;
@@ -33,7 +33,7 @@ namespace BUS
 
         public DataTable ShowAProduct(int id)
         {
-            string sql = "SELECT * FROM   Product WHERE ProductID=" + id;
+            string sql = "SELECT * FROM   Product WHERE ProductID='" + id+"'";
             DataTable dt = new DataTable();
             dt = da.GetTable(sql);
             return dt;
