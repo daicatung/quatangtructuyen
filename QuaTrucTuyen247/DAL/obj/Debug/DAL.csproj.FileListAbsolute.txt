@@ -9,3 +9,8 @@ C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\DAL\obj\Debug\DAL.cspr
 C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\DAL\obj\Debug\DAL.dll
 C:\Users\tu\source\repos\quatangtructuyen\QuaTrucTuyen247\DAL\obj\Debug\DAL.pdb
+C:\Users\Admin\Desktop\quatangtructuyen\QuaTrucTuyen247\DAL\bin\Debug\DAL.dll
+C:\Users\Admin\Desktop\quatangtructuyen\QuaTrucTuyen247\DAL\bin\Debug\DAL.pdb
+C:\Users\Admin\Desktop\quatangtructuyen\QuaTrucTuyen247\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\quatangtructuyen\QuaTrucTuyen247\DAL\obj\Debug\DAL.dll
+C:\Users\Admin\Desktop\quatangtructuyen\QuaTrucTuyen247\DAL\obj\Debug\DAL.pdb

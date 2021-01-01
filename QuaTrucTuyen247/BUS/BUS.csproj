@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DetailsProduct_BUS.cs" />
+    <Compile Include="Login_BUS.cs" />
     <Compile Include="Product_BUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register_ BUS.cs" />
     <Compile Include="Search_BUS.cs" />
   </ItemGroup>
   <ItemGroup>

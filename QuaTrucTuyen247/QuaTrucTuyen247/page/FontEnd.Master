@@ -28,6 +28,9 @@
     <link rel="stylesheet" href="../Css/base.css" />
     <link rel="stylesheet" href="../Css/gird.css" />
     <link rel="stylesheet" href="../Css/style.css" />
+    <link href="~/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Public/bootstrap/css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="~/Public/style/style.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">

@@ -88,6 +88,11 @@
     <Content Include="Images\products\thiep_giang_sinh_4_.jpg" />
     <Content Include="Images\products\tui-dung-qua-ong-gia-noel-04.jpg" />
     <Content Include="Images\products\tui-ong-gia-noel-1.jpg" />
+    <Content Include="page\Admin\index.aspx" />
+    <Content Include="page\Admin\Login.aspx" />
+    <Content Include="page\Admin\Product\InsertProduct.aspx" />
+    <Content Include="page\Admin\Product\Product.aspx" />
+    <Content Include="page\Admin\Product\UpdateProduct.aspx" />
     <Content Include="page\CSS\all.min.css" />
     <Content Include="page\CSS\all.min.js" />
     <Content Include="page\CSS\base.css" />
@@ -130,9 +135,170 @@
     <Content Include="page\images\products\thiep_giang_sinh_4_.jpg" />
     <Content Include="page\images\products\tui-dung-qua-ong-gia-noel-04.jpg" />
     <Content Include="page\images\products\tui-ong-gia-noel-1.jpg" />
+    <Content Include="page\Login.aspx" />
+    <Content Include="page\Register.aspx" />
+    <Content Include="Public\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Public\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Public\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Public\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Public\bootstrap\css\bootstrap.css" />
+    <Content Include="Public\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Public\bootstrap\jquery\jquery-3.2.1.slim.min.js" />
+    <Content Include="Public\bootstrap\js\admin_js.js" />
+    <Content Include="Public\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Public\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Public\bootstrap\js\bootstrap.js" />
+    <Content Include="Public\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Public\images\banner\banner1.png" />
+    <Content Include="Public\images\banner\banner2.png" />
+    <Content Include="Public\images\banner\logo.png" />
+    <Content Include="Public\images\carousel\carousel1.png" />
+    <Content Include="Public\images\carousel\carousel2.png" />
+    <Content Include="Public\images\carousel\carousel3.png" />
+    <Content Include="Public\images\favicon_io\android-chrome-192x192.png" />
+    <Content Include="Public\images\favicon_io\android-chrome-512x512.png" />
+    <Content Include="Public\images\favicon_io\apple-touch-icon.png" />
+    <Content Include="Public\images\favicon_io\favicon-16x16.png" />
+    <Content Include="Public\images\favicon_io\favicon-32x32.png" />
+    <Content Include="Public\images\favicon_io\favicon.ico" />
+    <Content Include="Public\images\icons\1.png" />
+    <Content Include="Public\images\icons\10.jpg" />
+    <Content Include="Public\images\icons\14.png" />
+    <Content Include="Public\images\icons\16.png" />
+    <Content Include="Public\images\icons\2.png" />
+    <Content Include="Public\images\icons\3.png" />
+    <Content Include="Public\images\icons\30.jpg" />
+    <Content Include="Public\images\icons\31.png" />
+    <Content Include="Public\images\icons\39.jpg" />
+    <Content Include="Public\images\icons\4.png" />
+    <Content Include="Public\images\icons\40.png" />
+    <Content Include="Public\images\icons\41.jpg" />
+    <Content Include="Public\images\icons\42.png" />
+    <Content Include="Public\images\icons\43.png" />
+    <Content Include="Public\images\icons\44.png" />
+    <Content Include="Public\images\icons\45.png" />
+    <Content Include="Public\images\icons\46.png" />
+    <Content Include="Public\images\icons\47.png" />
+    <Content Include="Public\images\icons\48.png" />
+    <Content Include="Public\images\icons\49.png" />
+    <Content Include="Public\images\icons\5.png" />
+    <Content Include="Public\images\icons\6.png" />
+    <Content Include="Public\images\icons\9.png" />
+    <Content Include="Public\images\icons\accessories.png" />
+    <Content Include="Public\images\icons\b.gif" />
+    <Content Include="Public\images\icons\cfb.png" />
+    <Content Include="Public\images\icons\contacts.png" />
+    <Content Include="Public\images\icons\diamond.png" />
+    <Content Include="Public\images\icons\g0.gif" />
+    <Content Include="Public\images\icons\g1.gif" />
+    <Content Include="Public\images\icons\hotline.png" />
+    <Content Include="Public\images\icons\i3.gif" />
+    <Content Include="Public\images\icons\i3.png" />
+    <Content Include="Public\images\icons\ic2.gif" />
+    <Content Include="Public\images\icons\ipad.png" />
+    <Content Include="Public\images\icons\laptop.png" />
+    <Content Include="Public\images\icons\m.jpg" />
+    <Content Include="Public\images\icons\man.png" />
+    <Content Include="Public\images\icons\medal.png" />
+    <Content Include="Public\images\icons\money.png" />
+    <Content Include="Public\images\icons\news.png" />
+    <Content Include="Public\images\icons\next.png" />
+    <Content Include="Public\images\icons\notepad.png" />
+    <Content Include="Public\images\icons\search.png" />
+    <Content Include="Public\images\icons\settings.png" />
+    <Content Include="Public\images\icons\star.png" />
+    <Content Include="Public\images\icons\telephone.png" />
+    <Content Include="Public\images\icons\user.png" />
+    <Content Include="Public\images\news\20141029-so-tien-son-tung-m-tp-2159-9055-1416216673_490x294-0641.jpg" />
+    <Content Include="Public\images\news\45403632_929606177232307_6233964426769203200_n.jpg" />
+    <Content Include="Public\images\news\48388871_268418977366507_8487178156573196288_n.jpg" />
+    <Content Include="Public\images\news\6%2822%29.jpg" />
+    <Content Include="Public\images\news\avatar2.png" />
+    <Content Include="Public\images\news\avatar3.png" />
+    <Content Include="Public\images\news\avatar4.png" />
+    <Content Include="Public\images\news\avatar5.png" />
+    <Content Include="Public\images\news\duck.jpg" />
+    <Content Include="Public\images\news\Ephoto360.com_15f0debb60712e.jpg" />
+    <Content Include="Public\images\news\Ephoto360.com_15f0debdf455f1.jpg" />
+    <Content Include="Public\images\news\Ephoto360.com_15f0dec11165de.jpg" />
+    <Content Include="Public\images\news\jannine weigel.jpg" />
+    <Content Include="Public\images\news\logo_DHCN.png" />
+    <Content Include="Public\images\news\news1.png" />
+    <Content Include="Public\images\news\news2.png" />
+    <Content Include="Public\images\news\ngocxl.jpg" />
+    <Content Include="Public\images\products\20141029-so-tien-son-tung-m-tp-2159-9055-1416216673_490x294-0641.jpg" />
+    <Content Include="Public\images\products\20935016_362217794198398_8299818991469814047_o.jpg" />
+    <Content Include="Public\images\products\6%2822%29.jpg" />
+    <Content Include="Public\images\products\acerp13.png" />
+    <Content Include="Public\images\products\acerpredatorx50.png" />
+    <Content Include="Public\images\products\amee.jpg" />
+    <Content Include="Public\images\products\amee_angel.jpg" />
+    <Content Include="Public\images\products\asuss15ultra.png" />
+    <Content Include="Public\images\products\avatar1.png" />
+    <Content Include="Public\images\products\avatar3.png" />
+    <Content Include="Public\images\products\avatar4.png" />
+    <Content Include="Public\images\products\dellinspiron7558.png" />
+    <Content Include="Public\images\products\dellxps13.png" />
+    <Content Include="Public\images\products\duck.jpg" />
+    <Content Include="Public\images\products\harmonica.jpg" />
+    <Content Include="Public\images\products\hpp6000.png" />
+    <Content Include="Public\images\products\iphone5s.png" />
+    <Content Include="Public\images\products\iphone6s.png" />
+    <Content Include="Public\images\products\jannine weigel.jpg" />
+    <Content Include="Public\images\products\ngocxl.jpg" />
+    <Content Include="Public\images\products\samsunga5.png" />
+    <Content Include="Public\images\products\samsunga7.png" />
+    <Content Include="Public\images\products\samsungj1.png" />
+    <Content Include="Public\images\products\samsungj3.png" />
+    <Content Include="Public\images\products\samsungs8.png" />
+    <Content Include="Public\style\admin_style.css" />
+    <Content Include="Public\style\detailproduct.css" />
+    <Content Include="Public\style\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="page\Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="page\Admin\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page\Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page\Admin\Product\InsertProduct.aspx.cs">
+      <DependentUpon>InsertProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\Product\InsertProduct.aspx.designer.cs">
+      <DependentUpon>InsertProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page\Admin\Product\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\Product\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page\Admin\Product\UpdateProduct.aspx.cs">
+      <DependentUpon>UpdateProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\Product\UpdateProduct.aspx.designer.cs">
+      <DependentUpon>UpdateProduct.aspx</DependentUpon>
+    </Compile>
     <Compile Include="page\DetailProducts.aspx.cs">
       <DependentUpon>DetailProducts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -154,11 +320,37 @@
     <Compile Include="page\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="page\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="page\FontEnd.Master" />
+    <Content Include="Public\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="Public\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="Public\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="Public\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Public\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Public\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Public\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="Public\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Public\bootstrap\js\bootstrap.js.map" />
+    <Content Include="Public\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="Public\images\favicon_io\site.webmanifest" />
+    <Content Include="page\Admin\Admin.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -180,7 +372,13 @@
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="page\Admin\Category\" />
+    <Folder Include="page\Admin\New\" />
+    <Folder Include="page\Admin\Order\" />
+    <Folder Include="page\Admin\User\" />
+    <Folder Include="page\Admin\Vendor\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
