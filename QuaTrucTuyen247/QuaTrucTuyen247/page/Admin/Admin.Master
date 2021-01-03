@@ -10,20 +10,20 @@
     <link href="~/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../../Public/style/style.css" rel="stylesheet" />
     <style type="text/css">
-         #menu {
+        #menu {
             list-style-type: none;
-            margin-top:50px;
+            margin-top: 50px;
             width: 100%;
             margin: 0;
             padding: 0;
-            background-color:blue;
+            background-color: blue;
             height: auto;
         }
 
             #menu li {
                 display: block;
                 width: 100%;
-                align-content:center;
+                align-content: center;
                 padding-left: 5px;
                 position: relative;
                 height: 50px;
@@ -32,7 +32,7 @@
             }
 
                 #menu li a {
-                    align-content:center;
+                    align-content: center;
                     display: block;
                     color: #ffffff;
                     font-size: 18px;
@@ -47,7 +47,7 @@
                     display: none;
                     margin: 0;
                     padding: 0;
-                    background-color:cadetblue;
+                    background-color: cadetblue;
                     position: absolute;
                     top: 0px;
                     left: 230px;
@@ -62,7 +62,7 @@
     </style>
 </head>
 <body>
-   <form id="form1" runat="server">
+    <form id="form1" runat="server">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2" style="background: #343a40; height: auto;">
@@ -70,14 +70,14 @@
                         <li>
                             <asp:HyperLink ID="HyperLink6" runat="server">
                                 <asp:Label ID="lbNameAdmin" runat="server" Text="Label"></asp:Label>
-                             </asp:HyperLink>
+                            </asp:HyperLink>
                             <ul id="sub-menu">
                                 <li>
                                     <asp:LinkButton ID="LinkButtonLogout" runat="server" OnClick="LinkButtonLogout_Click">Đăng xuất Tài Khoản</asp:LinkButton>
                                 </li>
-                               <li>
-                                   <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Page/Home.aspx">Quay Về Trang Người dùng</asp:HyperLink>
-                               </li>
+                                <li>
+                                    <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Page/Home.aspx">Quay Về Trang Người dùng</asp:HyperLink>
+                                </li>
                             </ul>
                         </li>
                         <li>

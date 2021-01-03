@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+﻿using BUS;
+using System;
 using System.Data;
-using BUS;
 
 namespace QuaTrucTuyen247.page
 {
@@ -51,4 +46,4 @@ namespace QuaTrucTuyen247.page
             }
         }
     }
-    }
+}

@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data;
-using System.Data.SqlClient;
-using DAL;
+﻿using DAL;
 using DTO;
+using System.Data;
 
 namespace BUS
 {
@@ -25,7 +19,7 @@ namespace BUS
 
         public DataTable Show8AProduct(int id)
         {
-            string sql = "SELECT * FROM   Product WHERE CategoryID='" + id+"'" ;
+            string sql = "SELECT * FROM   Product WHERE CategoryID='" + id + "'";
             DataTable dt = new DataTable();
             dt = da.GetTable(sql);
             return dt;
@@ -33,7 +27,7 @@ namespace BUS
 
         public DataTable ShowAProduct(int id)
         {
-            string sql = "SELECT * FROM   Product WHERE ProductID='" + id+"'";
+            string sql = "SELECT * FROM   Product WHERE ProductID='" + id + "'";
             DataTable dt = new DataTable();
             dt = da.GetTable(sql);
             return dt;
@@ -45,6 +39,24 @@ namespace BUS
             DataTable dt = new DataTable();
             dt = da.GetTable(sql);
             return dt;
+        }
+
+        public void InsertProduct(string CategoryID, string ProductName, string Photo, string Quantity, string Cost)
+        {
+            string sql = "Insert Product values(N'" + CategoryID + "',N'" + ProductName + "',N'" + Photo + "',N'" + Quantity + "',N'" + Cost + "')";
+            da.ExecuteNonQuery(sql);
+        }
+        
+        public void UpdateProduct(string ProductID, string CategoryID, string ProductName, string Photo, string Quantity, string Cost)
+        {
+            string sql = "update Product set CategoryID=N'" + CategoryID + "', ProductName=N'" + ProductName + "', Photo=N'" + Photo + "', Quantity=N'" + Quantity + "', Cost=N'" + Cost + "' where ProductID =N'" + ProductID + "'";
+            da.ExecuteNonQuery(sql);
+        }
+
+        public void DeleteProduct(string ProductID)
+        {
+            string sql = "Delete Product where ProductID=N'" + ProductID + "'";
+            da.ExecuteNonQuery(sql);
         }
     }
 }

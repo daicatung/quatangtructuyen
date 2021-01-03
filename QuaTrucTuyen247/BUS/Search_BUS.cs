@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DAL;
+﻿using DAL;
 using System.Data;
 namespace BUS
 {
-   public class Search_BUS
+    public class Search_BUS
     {
         Lop_DAL dal = new Lop_DAL();
 

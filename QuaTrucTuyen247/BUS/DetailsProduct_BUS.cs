@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data;
-using System.Data.SqlClient;
-using DAL;
+﻿using DAL;
 using DTO;
+using System.Data;
 
 namespace BUS
 {
@@ -17,7 +11,7 @@ namespace BUS
         DetailsProduct_DTO detail = new DetailsProduct_DTO();
         public DataTable ShowProductWithID(int id)
         {
-            string sql = "SELECT * FROM   Product WHERE ProductID='" + id+"'";
+            string sql = "SELECT * FROM   Product WHERE ProductID='" + id + "'";
             DataTable dt = new DataTable();
             dt = da.GetTable(sql);
             return dt;
@@ -25,7 +19,7 @@ namespace BUS
 
         public DataTable ShowDetailsProduct(int id)
         {
-            string sql = "SELECT * FROM   DetailProduct WHERE ProductID='" + id+"'";
+            string sql = "SELECT * FROM   DetailProduct WHERE ProductID='" + id + "'";
             DataTable dt = new DataTable();
             dt = da.GetTable(sql);
             return dt;

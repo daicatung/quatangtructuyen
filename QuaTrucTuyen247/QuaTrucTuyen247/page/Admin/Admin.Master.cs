@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace QuaTrucTuyen247.page.Admin
 {
@@ -11,7 +6,7 @@ namespace QuaTrucTuyen247.page.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            lbNameAdmin.Text = "Admin : "+Session["admin"].ToString();
+            lbNameAdmin.Text = "Admin : " + Session["admin"].ToString();
         }
         protected void LinkButtonLogout_Click(object sender, EventArgs e)
         {

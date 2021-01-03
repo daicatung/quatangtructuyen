@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Data.SqlClient;
+﻿using BUS;
+using System;
 using System.Data;
-using BUS;
 namespace QuaTrucTuyen247.page
 {
-    
+
     public partial class Home : System.Web.UI.Page
     {
         Product_BUS bus = new Product_BUS();

@@ -1,12 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/page/FontEnd.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="QuaTrucTuyen247.page.Register" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-<title>Đăng ký</title>
+    <title>Đăng ký</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
 
         <div class="row" style="margin: 50px 0px">
-            <div class="col-md-6" style="margin: 0 auto; border: 1px solid #417bff; border-radius:5px;">
+            <div class="col-md-6" style="margin: 0 auto; border: 1px solid #417bff; border-radius: 5px;">
                 <div style="padding: 5px 10px;">
                     <div class="col-md-12" style="background: #417bff; color: #fff; text-align: center; height: 50px; line-height: 50px; margin-bottom: 20px">
                         <b>ĐĂNG KÝ</b>
