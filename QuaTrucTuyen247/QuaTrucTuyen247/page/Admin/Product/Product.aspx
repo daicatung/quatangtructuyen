@@ -10,12 +10,12 @@
             <asp:Button ID="btnTK" runat="server" CssClass="btn btn-warning" Text="Tìm Kiếm" OnClick="btTK_Click" />
         </div>
         <div>
-            <asp:GridView ID="GridView1" DataKeyNames="ProductID" runat="server" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="4px" CellPadding="3" Width="1010px" AutoGenerateColumns="False" CellSpacing="2" AllowPaging="True" OnPageIndexChanging="GridView1_PageIndexChanging" CssClass="auto-style1">
+            <asp:GridView ID="GridView1" DataKeyNames="ProductID" runat="server" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="4px" CellPadding="3" Width="1120px" AutoGenerateColumns="False" CellSpacing="2" AllowPaging="True" OnPageIndexChanging="GridView1_PageIndexChanging" CssClass="auto-style1">
                 <Columns>
                     <asp:BoundField DataField="ProductID" HeaderText="ProductID">
                         <ControlStyle Width="80px" />
                     </asp:BoundField>
-                    <asp:BoundField DataField="DetailProductID" HeaderText="DetailProductID" />
+                    
                     <asp:ImageField DataImageUrlField="Photo" HeaderText="Photo" ControlStyle-Width="80">
                         <ControlStyle Width="80px"></ControlStyle>
                     </asp:ImageField>

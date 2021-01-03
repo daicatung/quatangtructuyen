@@ -83,15 +83,9 @@
                         <li>
                             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Page/Admin/Product/Product.aspx">Quản lý sản phẩm</asp:HyperLink>
                         </li>
-                        <li>
-                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Page/Admin/Category/Category.aspx">Quản lý danh mục hàng</asp:HyperLink>
-                        </li>
-                        <li>
-                            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Page/Admin/Vendor/Vendor.aspx">Quản lý nhà sản xuất</asp:HyperLink>
-                        </li>
-                        <li>
-                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Page/Admin/News/News.aspx">Quản lý tin tức</asp:HyperLink>
-                        </li>
+                       
+                       
+                       
                         <li>
                             <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Page/Admin/User/User.aspx">Quản lý người dùng</asp:HyperLink>
                         </li>

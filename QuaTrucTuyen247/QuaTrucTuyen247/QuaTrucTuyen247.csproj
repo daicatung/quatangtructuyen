@@ -93,6 +93,9 @@
     <Content Include="page\Admin\Product\InsertProduct.aspx" />
     <Content Include="page\Admin\Product\Product.aspx" />
     <Content Include="page\Admin\Product\UpdateProduct.aspx" />
+    <Content Include="page\Admin\User\InsertUser.aspx" />
+    <Content Include="page\Admin\User\UpdateUser.aspx" />
+    <Content Include="page\Admin\User\User.aspx" />
     <Content Include="page\CSS\all.min.css" />
     <Content Include="page\CSS\all.min.js" />
     <Content Include="page\CSS\base.css" />
@@ -299,6 +302,27 @@
     <Compile Include="page\Admin\Product\UpdateProduct.aspx.designer.cs">
       <DependentUpon>UpdateProduct.aspx</DependentUpon>
     </Compile>
+    <Compile Include="page\Admin\User\InsertUser.aspx.cs">
+      <DependentUpon>InsertUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\User\InsertUser.aspx.designer.cs">
+      <DependentUpon>InsertUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page\Admin\User\UpdateUser.aspx.cs">
+      <DependentUpon>UpdateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\User\UpdateUser.aspx.designer.cs">
+      <DependentUpon>UpdateUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page\Admin\User\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\User\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
     <Compile Include="page\DetailProducts.aspx.cs">
       <DependentUpon>DetailProducts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -376,7 +400,6 @@
     <Folder Include="page\Admin\Category\" />
     <Folder Include="page\Admin\New\" />
     <Folder Include="page\Admin\Order\" />
-    <Folder Include="page\Admin\User\" />
     <Folder Include="page\Admin\Vendor\" />
   </ItemGroup>
   <PropertyGroup>

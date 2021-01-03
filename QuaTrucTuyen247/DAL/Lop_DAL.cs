@@ -7,10 +7,8 @@ namespace DAL
     {
         public SqlConnection GetConnect()
         {
-            return new SqlConnection(@"Data Source=DESKTOP-HND0LC3\SQLEXPRESS;Initial Catalog=QuaTrucTuyen247;Integrated Security=True");
             //return new SqlConnection(@"Data Source=DESKTOP-HND0LC3\SQLEXPRESS;Initial Catalog=QuaTrucTuyen247;Integrated Security=True");
-            // Thay doi ket noi cua m
-            //
+            return new SqlConnection(@"Data Source=ADMIN\SQLEXPRESS;Initial Catalog=QuaTrucTuyen247;Integrated Security=True");
         }
 
         public DataTable GetTable(string sql)

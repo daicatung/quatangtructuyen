@@ -32,7 +32,13 @@ namespace BUS
             dt = da.GetTable(sql);
             return dt;
         }
-
+        public DataTable SearchProduct(string content)
+        {
+            string sql = "SELECT * FROM Product WHERE ProductName LIKE N'%" + content + "%'";
+            DataTable dt = new DataTable();
+            dt = da.GetTable(sql);
+            return dt;
+        }
         public DataTable ShowCategory()
         {
             string sql = "SELECT * FROM Categoryy";
@@ -58,5 +64,19 @@ namespace BUS
             string sql = "Delete Product where ProductID=N'" + ProductID + "'";
             da.ExecuteNonQuery(sql);
         }
+        public DataTable ShowVendor()
+        {
+            string sql = "SELECT * FROM Vendor";
+            DataTable dt = new DataTable();
+            dt = da.GetTable(sql);
+            return dt;
+        }
+        public void UpdateProduct(int proID, int venID, int cateID, string proName, string des, string photo, int quantity, decimal cost, int state)
+        {
+            string sql = "UPDATE Product SET VendorID='" + venID + "',CategoryID='" + cateID + "',ProductName=N'" + proName + "',Description=N'" + des + "',Photo='~/Public/images/products/" + photo + "',Quantity='" + quantity + "',Cost='" + cost + "',ProductState='" + state + "' WHERE ProductID='" + proID + "'";
+            da.ExecuteNonQuery(sql);
+        }
+
+     
     }
 }

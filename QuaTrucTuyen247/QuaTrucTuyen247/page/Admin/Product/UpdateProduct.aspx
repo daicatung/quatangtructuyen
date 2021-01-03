@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="margin: auto; width: 800px;">
         <div>
-            <h1 align="center">THÊM SẢN PHẨM</h1>
+            <h1 align="center">SỬA SẢN PHẨM</h1>
         </div>
         <div>
             <table style="width: 100%;">

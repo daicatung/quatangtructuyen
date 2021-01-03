@@ -51,6 +51,8 @@ namespace QuaTrucTuyen247.page.Admin.Product
         protected void btTK_Click(object sender, EventArgs e)
         {
 
+            GridView1.DataSource = bus.SearchProduct(txtTK.Text);
+            GridView1.DataBind();
         }
 
         protected void GridView1_PageIndexChanging(object sender, GridViewPageEventArgs e)
