@@ -6,6 +6,7 @@ namespace QuaTrucTuyen247.page.Admin.Product
     public partial class Product : System.Web.UI.Page
     {
         Product_BUS bus = new Product_BUS();
+        DetailsProduct_BUS L = new DetailsProduct_BUS();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -33,9 +34,9 @@ namespace QuaTrucTuyen247.page.Admin.Product
             GridViewRow grvr = btnXoa.NamingContainer as GridViewRow;
             string productId = GridView1.DataKeys[grvr.RowIndex].Value.ToString();
             bus.DeleteProduct(productId);
+            L.DeleteDetailProduct(productId);
             string alert = "Xóa thành công";
             Response.Redirect("~/Page/Admin/Product/Product.aspx?alert=" + alert);
-
         }
 
         protected void btnSua_Click(object sender, EventArgs e)
@@ -45,7 +46,14 @@ namespace QuaTrucTuyen247.page.Admin.Product
             GridViewRow grvr = btnUpdate.NamingContainer as GridViewRow;
             string id = GridView1.DataKeys[grvr.RowIndex].Value.ToString();
             Response.Redirect("~/Page/Admin/Product/UpdateProduct.aspx?id=" + id);
+        }
 
+        protected void btnChiTiet_Click(object sender , EventArgs e)
+        {
+            Button btnChitiet = sender as Button;
+            GridViewRow grvr = btnChitiet.NamingContainer as GridViewRow;
+            string id = GridView1.DataKeys[grvr.RowIndex].Value.ToString();
+            Response.Redirect("~/Page/Admin/Product/DetailManger.aspx?id=" + id);
         }
 
         protected void btTK_Click(object sender, EventArgs e)

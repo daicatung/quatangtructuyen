@@ -43,98 +43,98 @@
                 <tr>
                     <td>Giới thiệu sản phẩm:</td>
                     <td>
-                        <asp:TextBox ID="TextBox4" TextMode="MultiLine" runat="server"></asp:TextBox></td>
+                        <asp:TextBox ID="txtDescription" TextMode="MultiLine" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>Tiêu đề:</td>
                     <td>
-                        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox></td>
+                        <asp:TextBox ID="txtTitle" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>Ảnh:</td>
                     <td>
-                        <asp:FileUpload ID="FileUpload2" runat="server" /></td>
+                        <asp:FileUpload ID="txtPhoto" runat="server" /></td>
                 </tr>
                 <tr>
                     <td>Tiêu đề 1:</td>
                     <td>
-                        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox></td>
+                        <asp:TextBox ID="txtTit1" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>Mô tả 1:</td>
                     <td>
-                        <asp:TextBox ID="TextBox7" TextMode="MultiLine" runat="server"></asp:TextBox></td>
+                        <asp:TextBox ID="txtDes1" TextMode="MultiLine" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>Ảnh 1:</td>
                     <td>
-                        <asp:FileUpload ID="FileUpload3" runat="server" /></td>
+                        <asp:FileUpload ID="txtPhoto1" runat="server" /></td>
                 </tr>
                 <tr>
                     <td>Tiêu đề 2:</td>
                     <td>
-                        <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox></td>
+                        <asp:TextBox ID="txtTit2" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>Mô tả 2:</td>
                     <td>
-                        <asp:TextBox ID="TextBox9" TextMode="MultiLine" runat="server"></asp:TextBox></td>
+                        <asp:TextBox ID="txtDes2" TextMode="MultiLine" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>Ảnh 2:</td>
                     <td>
-                        <asp:FileUpload ID="FileUpload4" runat="server" /></td>
+                        <asp:FileUpload ID="txtPhoto2" runat="server" /></td>
                 </tr>
                 <tr>
                     <td>Tiêu đề 3:</td>
                     <td>
-                        <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox></td>
+                        <asp:TextBox ID="txtTit3" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>Mô tả 3:</td>
                     <td>
-                        <asp:TextBox ID="TextBox11" TextMode="MultiLine" runat="server"></asp:TextBox></td>
+                        <asp:TextBox ID="txtDes3" TextMode="MultiLine" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>Ảnh 3:</td>
                     <td>
-                        <asp:FileUpload ID="FileUpload5" runat="server" /></td>
+                        <asp:FileUpload ID="txtPhoto3" runat="server" /></td>
                 </tr>
                 <tr>
                     <td>Tiêu đề 4:</td>
                     <td>
-                        <asp:TextBox ID="TextBox12" TextMode="MultiLine" runat="server"></asp:TextBox></td>
+                        <asp:TextBox ID="txtTit4" TextMode="MultiLine" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>Mô tả 4:</td>
                     <td>
-                        <asp:TextBox ID="TextBox13" runat="server"></asp:TextBox></td>
+                        <asp:TextBox ID="txtDes4" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>Ảnh 4:</td>
                     <td>
-                        <asp:FileUpload ID="FileUpload6" runat="server" /></td>
+                        <asp:FileUpload ID="txtPhoto4" runat="server" /></td>
                 </tr>
                 <tr>
                     <td>Tiêu đề 5:</td>
                     <td>
-                        <asp:TextBox ID="TextBox14" runat="server"></asp:TextBox></td>
+                        <asp:TextBox ID="txtTit5" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>Mô tả 5:</td>
                     <td>
-                        <asp:TextBox ID="TextBox15" TextMode="MultiLine" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtDes5" TextMode="MultiLine" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td>Ảnh 5:</td>
                     <td>
-                        <asp:FileUpload ID="FileUpload7" runat="server" />
+                        <asp:FileUpload ID="txtPhoto5" runat="server" />
                     </td>
                 </tr>
             </table>
         </div>
         <asp:Button ID="btthem" runat="server" OnClick="btnThem1_Click" Text="Thêm" />
-        <asp:Button ID="bthuy" runat="server" Text="Hủy" />
+        <asp:Button ID="bthuy" runat="server" OnClick="btbHuy_Click" Text="Hủy" />
     </div>
 </asp:Content>

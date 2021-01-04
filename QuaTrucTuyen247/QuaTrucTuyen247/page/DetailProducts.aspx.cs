@@ -11,7 +11,7 @@ namespace QuaTrucTuyen247.page
         DetailsProduct_BUS L = new DetailsProduct_BUS();
         protected void Page_Load(object sender, EventArgs e)
         {
-            int ID = Int32.Parse(Request.QueryString["ProductID"].ToString());
+            string ID = Request.QueryString["ProductID"].ToString();
             DataList1.DataSource = L.ShowProductWithID(ID);
             DataList1.DataBind();
             DataList2.DataSource = L.ShowDetailsProduct(ID);

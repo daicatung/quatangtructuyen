@@ -11,7 +11,7 @@ namespace QuaTrucTuyen247.page.Admin.Product
 {
 
 
-    public partial class InsertProduct
+    public partial class UpdateDetail
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace QuaTrucTuyen247.page.Admin.Product
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
 
         /// <summary>
-        /// txtTenSP control.
+        /// txtTen control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTenSP;
+        protected global::System.Web.UI.WebControls.TextBox txtTen;
 
         /// <summary>
         /// FileUpload1 control.
@@ -60,15 +60,6 @@ namespace QuaTrucTuyen247.page.Admin.Product
         protected global::System.Web.UI.WebControls.TextBox txtGia;
 
         /// <summary>
-        /// txtDescription control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDescription;
-
-        /// <summary>
         /// txtTitle control.
         /// </summary>
         /// <remarks>
@@ -76,6 +67,15 @@ namespace QuaTrucTuyen247.page.Admin.Product
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTitle;
+
+        /// <summary>
+        /// txtDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtDescription;
 
         /// <summary>
         /// txtPhoto control.
@@ -222,21 +222,21 @@ namespace QuaTrucTuyen247.page.Admin.Product
         protected global::System.Web.UI.WebControls.FileUpload txtPhoto5;
 
         /// <summary>
-        /// btthem control.
+        /// btXacNhan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btthem;
+        protected global::System.Web.UI.WebControls.Button btXacNhan;
 
         /// <summary>
-        /// bthuy control.
+        /// btHuy control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bthuy;
+        protected global::System.Web.UI.WebControls.Button btHuy;
     }
 }

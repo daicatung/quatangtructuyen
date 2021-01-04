@@ -49,13 +49,13 @@ namespace BUS
 
         public void InsertProduct(string CategoryID, string ProductName, string Photo, string Quantity, string Cost)
         {
-            string sql = "Insert Product values(N'" + CategoryID + "',N'" + ProductName + "',N'" + Photo + "',N'" + Quantity + "',N'" + Cost + "')";
+            string sql = "Insert Product values(N'" + CategoryID + "',N'" + ProductName + "',N'~/images/products/" + Photo + "',N'" + Quantity + "',N'" + Cost + "')";
             da.ExecuteNonQuery(sql);
         }
         
         public void UpdateProduct(string ProductID, string CategoryID, string ProductName, string Photo, string Quantity, string Cost)
         {
-            string sql = "update Product set CategoryID=N'" + CategoryID + "', ProductName=N'" + ProductName + "', Photo=N'" + Photo + "', Quantity=N'" + Quantity + "', Cost=N'" + Cost + "' where ProductID =N'" + ProductID + "'";
+            string sql = "update Product set CategoryID=N'" + CategoryID + "', ProductName=N'" + ProductName + "', Photo=N'~/images/products/" + Photo + "', Quantity=N'" + Quantity + "', Cost=N'" + Cost + "' where ProductID =N'" + ProductID + "'";
             da.ExecuteNonQuery(sql);
         }
 

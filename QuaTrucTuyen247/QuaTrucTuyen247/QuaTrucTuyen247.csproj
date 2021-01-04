@@ -90,8 +90,10 @@
     <Content Include="Images\products\tui-ong-gia-noel-1.jpg" />
     <Content Include="page\Admin\index.aspx" />
     <Content Include="page\Admin\Login.aspx" />
+    <Content Include="page\Admin\Product\DetailManger.aspx" />
     <Content Include="page\Admin\Product\InsertProduct.aspx" />
     <Content Include="page\Admin\Product\Product.aspx" />
+    <Content Include="page\Admin\Product\UpdateDetail.aspx" />
     <Content Include="page\Admin\Product\UpdateProduct.aspx" />
     <Content Include="page\Admin\User\InsertUser.aspx" />
     <Content Include="page\Admin\User\UpdateUser.aspx" />
@@ -281,6 +283,13 @@
     <Compile Include="page\Admin\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="page\Admin\Product\DetailManger.aspx.cs">
+      <DependentUpon>DetailManger.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\Product\DetailManger.aspx.designer.cs">
+      <DependentUpon>DetailManger.aspx</DependentUpon>
+    </Compile>
     <Compile Include="page\Admin\Product\InsertProduct.aspx.cs">
       <DependentUpon>InsertProduct.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -294,6 +303,13 @@
     </Compile>
     <Compile Include="page\Admin\Product\Product.aspx.designer.cs">
       <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page\Admin\Product\UpdateDetail.aspx.cs">
+      <DependentUpon>UpdateDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\Product\UpdateDetail.aspx.designer.cs">
+      <DependentUpon>UpdateDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="page\Admin\Product\UpdateProduct.aspx.cs">
       <DependentUpon>UpdateProduct.aspx</DependentUpon>

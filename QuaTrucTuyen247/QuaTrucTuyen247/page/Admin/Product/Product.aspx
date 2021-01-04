@@ -24,6 +24,11 @@
                     <asp:BoundField DataField="Cost" HeaderText="Cost" />
                     <asp:TemplateField>
                         <ItemTemplate>
+                            <asp:Button ID="btnChiTiet" runat="server" CssClass="btn btn-dark" Text="Chi tiết" OnClick="btnChiTiet_Click" Width="78px" />
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                    <asp:TemplateField>
+                        <ItemTemplate>
                             <asp:Button ID="btnSua" runat="server" CssClass="btn btn-primary" Text="Sửa" OnClick="btnSua_Click" Width="39px" />
                         </ItemTemplate>
                     </asp:TemplateField>
