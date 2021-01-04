@@ -142,6 +142,7 @@
     <Content Include="page\images\products\tui-ong-gia-noel-1.jpg" />
     <Content Include="page\Login.aspx" />
     <Content Include="page\Register.aspx" />
+    <Content Include="page\SearchProduct.aspx" />
     <Content Include="Public\bootstrap\css\bootstrap-grid.css" />
     <Content Include="Public\bootstrap\css\bootstrap-grid.min.css" />
     <Content Include="Public\bootstrap\css\bootstrap-reboot.css" />
@@ -373,6 +374,13 @@
     </Compile>
     <Compile Include="page\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page\SearchProduct.aspx.cs">
+      <DependentUpon>SearchProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\SearchProduct.aspx.designer.cs">
+      <DependentUpon>SearchProduct.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

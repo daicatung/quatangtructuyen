@@ -111,7 +111,7 @@
     </asp:DataList>
     <div align="center">
         <asp:Button ID="Button1" runat="server" Text="Sửa" OnClick="Sua_Click" BackColor="Red" />
-        <asp:Button ID="Button2" runat="server" Text="Trở về" BackColor="#66FFFF" />
+        <asp:Button ID="Button2" runat="server" Text="Trở về" OnClick="TroVe_click" BackColor="#66FFFF" />
         <asp:Label Text="hello" ID="label1" runat="server" />
     </div>
     <%--DetailsProduct--%>

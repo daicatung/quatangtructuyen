@@ -72,7 +72,7 @@ namespace QuaTrucTuyen247.page.Admin.Product
         protected void btXacNhan_Click(object sender, EventArgs e)
         {
             string id = Request.QueryString["id"].ToString();
-            L.UpdateProduct(ID, DropDownList1.SelectedValue.ToString(), txtTen.Text, FileUpload1.FileName, txtQuantity.Text, txtGia.Text);
+            L.UpdateProduct(id, DropDownList1.SelectedValue.ToString(), txtTen.Text, FileUpload1.FileName, txtQuantity.Text, txtGia.Text);
             Ld.UpdateDetailProduct(id,txtTitle.Text, txtDescription.Text, txtPhoto.FileName, txtTit1.Text, txtDes1.Text, txtPhoto1.FileName, txtTit2.Text, txtDes2.Text, txtPhoto2.FileName, txtTit3.Text, txtDes3.Text, txtPhoto3.FileName, txtTit4.Text, txtDes4.Text, txtPhoto4.FileName, txtTit5.Text, txtDes5.Text, txtPhoto5.FileName);
             Response.Redirect("~/Page/Admin/Product/DetailManger.aspx?id=" + id);
         }

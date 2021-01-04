@@ -33,7 +33,7 @@ namespace BUS
 
         public void UpdateDetailProduct(string ProductID, string Title, string Desciption, string Photo, string Tit1, string Des1, string Photo1, string Tit2, string Des2, string Photo2, string Tit3, string Des3, string Photo3, string Tit4, string Des4, string Photo4, string Tit5, string Des5, string Photo5)
         {
-            string sql = "update DetailProduct set Title=N'" + Title + "', Desciption=N'" + Desciption + "', Photo=N'" + Photo + "'~/images/products/, Tit1=N'" + Tit1 + "', Des1=N'" + Des1 + "', Photo1=N'~/images/products/" + Photo1+ "', Tit2=N'" + Tit2 + "', Des2=N'" + Des2 + "', Photo2=N'~/images/products/" + Photo2 + "', Tit3=N'" + Tit3 + "', Des3=N'" + Des3 + "', Photo3=N'~/images/products/" + Photo3 + "', Tit4=N'" + Tit4 + "', Des4=N'" + Des4 + "', Photo4=N'~/images/products/" + Photo4 + "', Tit5=N'" + Tit5 + "', Des5=N'" + Des5 + "', Photo5=N'~/images/products/" + Photo5 + "' where ProductID =N'" + ProductID + "'";
+            string sql = "update DetailProduct set Title=N'" + Title + "', Desciption=N'" + Desciption + "', Photo=N'~/images/products/" + Photo + "', Tit1=N'" + Tit1 + "', Des1=N'" + Des1 + "', Photo1=N'~/images/products/" + Photo1+ "', Tit2=N'" + Tit2 + "', Des2=N'" + Des2 + "', Photo2=N'~/images/products/" + Photo2 + "', Tit3=N'" + Tit3 + "', Des3=N'" + Des3 + "', Photo3=N'~/images/products/" + Photo3 + "', Tit4=N'" + Tit4 + "', Des4=N'" + Des4 + "', Photo4=N'~/images/products/" + Photo4 + "', Tit5=N'" + Tit5 + "', Des5=N'" + Des5 + "', Photo5=N'~/images/products/" + Photo5 + "' where ProductID =N'" + ProductID + "'";
             da.ExecuteNonQuery(sql);
         }
 
