@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Cart.PNG" />
     <Content Include="Images\logo-quatructuyen_trang_1_5.png" />
     <Content Include="Images\paymentquatructuyen.png" />
     <Content Include="Images\products\bo_tach_tra_ca_phe_gom_su_kalandi_cao_cap_2_.jpg" />
@@ -88,6 +89,8 @@
     <Content Include="Images\products\thiep_giang_sinh_4_.jpg" />
     <Content Include="Images\products\tui-dung-qua-ong-gia-noel-04.jpg" />
     <Content Include="Images\products\tui-ong-gia-noel-1.jpg" />
+    <Content Include="Images\Search.PNG" />
+    <Content Include="Images\User.PNG" />
     <Content Include="page\Admin\index.aspx" />
     <Content Include="page\Admin\Login.aspx" />
     <Content Include="page\Admin\Product\DetailManger.aspx" />
@@ -98,6 +101,7 @@
     <Content Include="page\Admin\User\InsertUser.aspx" />
     <Content Include="page\Admin\User\UpdateUser.aspx" />
     <Content Include="page\Admin\User\User.aspx" />
+    <Content Include="page\Cart.aspx" />
     <Content Include="page\CSS\all.min.css" />
     <Content Include="page\CSS\all.min.js" />
     <Content Include="page\CSS\base.css" />
@@ -339,6 +343,13 @@
     </Compile>
     <Compile Include="page\Admin\User\User.aspx.designer.cs">
       <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page\Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
     </Compile>
     <Compile Include="page\DetailProducts.aspx.cs">
       <DependentUpon>DetailProducts.aspx</DependentUpon>

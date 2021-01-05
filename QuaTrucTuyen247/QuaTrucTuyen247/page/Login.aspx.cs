@@ -1,14 +1,13 @@
 ﻿using BUS;
 using System;
 using System.Data;
-
 namespace QuaTrucTuyen247.page
 {
     public partial class Login : System.Web.UI.Page
     {
         public static string username;
         Login_BUS bus = new Login_BUS();
-
+        public static string UserID="0";
         protected void Page_Load(object sender, EventArgs e)
         {
         }
@@ -27,6 +26,7 @@ namespace QuaTrucTuyen247.page
                     if (username == dr["UserName"].ToString().Trim() && password == dr["Password"].ToString().Trim())
                     {
                         dem++;
+                        UserID = dr["UserID"].ToString();
                         break;
                     }
                 }

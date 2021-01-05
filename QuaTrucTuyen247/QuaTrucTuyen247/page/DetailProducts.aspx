@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <%--Product--%>
-    <asp:DataList ID="DataList1" Width="100%" runat="server">
+    <asp:DataList ID="DataList1" DataKeyField="ProductID" Width="100%" runat="server">
         <ItemTemplate>
             <br />
             <br />
@@ -27,7 +27,7 @@
                     <br />
                     <br />
                     <br />
-                    <asp:Button ID="ButCart" runat="server" Text="Chọn Quà này" Width="250px" Height="40px" ForeColor="White" BackColor="Orange" BorderStyle="Solid" BorderColor="Orange" />
+                    <asp:Button ID="ButCart" runat="server" Text="Chọn Quà này" OnClick="btnCart_Click" Width="250px" Height="40px" ForeColor="White" BackColor="Orange" BorderStyle="Solid" BorderColor="Orange" />
                 </div>
             </div>
         </ItemTemplate>

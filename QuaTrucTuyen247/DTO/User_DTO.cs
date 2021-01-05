@@ -1,6 +1,6 @@
 ﻿namespace DTO
 {
-    class User_DTO
+    public class User_DTO
     {
         int userID_, userState;
         string userName_, password_, email_, phone_, address_, role_;

@@ -21,11 +21,6 @@
                     <p style="font-size: 25px; font-weight: bold; line-height: 30px; color: red;">
                         <asp:Literal Text='<%# Eval("Cost") %>' runat="server" />
                     </p>
-                    <hr />
-                    <br />
-                    <br />
-                    <br />
-                    <asp:Button ID="ButCart" runat="server" Text="Chọn Quà này" Width="250px" Height="40px" ForeColor="White" BackColor="Orange" BorderStyle="Solid" BorderColor="Orange" />
                 </div>
             </div>
         </ItemTemplate>

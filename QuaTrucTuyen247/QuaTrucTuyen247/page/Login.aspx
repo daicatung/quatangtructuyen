@@ -5,9 +5,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1 style="align-content: center; margin-top: 50px; margin-bottom: 40px; color: cadetblue; font-size: 23px" align="center">ĐĂNG NHẬP</h1>
-    <table style="width: 1300px; height: 700px; border: 4px; align-items: center" border="1" align="center">
+    <table style="width: 500px; height: 200px; margin:auto;">
         <tr>
-            <td style="width: 500px" align="center">
+            <td align="center">
                 <b>
                     <p style="align-items: normal; font-size: 18px; color: gray; margin: auto; margin-bottom: 20px">ĐĂNG NHẬP TÀI KHOẢN CỦA BẠN</p>
                 </b>

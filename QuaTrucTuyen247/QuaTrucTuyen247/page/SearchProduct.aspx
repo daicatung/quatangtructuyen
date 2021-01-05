@@ -36,7 +36,7 @@
                     <tr>
                         <td>
                             <p style="margin-top: 15px; margin-bottom: 15px; color: red">
-                                <asp:Button ID="ButCart" runat="server" Text="Chọn Quà này" Width="240px" Height="40px" />
+                                <asp:Button ID="ButCart" runat="server" OnClick="btnCart_Click" Text="Chọn Quà này" Width="240px" Height="40px" />
                             </p>
                         </td>
                     </tr>

@@ -352,7 +352,6 @@
 
 
                 <div class="header-listIcon">
-
                     <input type="checkbox" hidden id="showSearchBox" />
                     <label for="showSearchBox">
                         <i class="fas fa-search header-icon"></i>
@@ -365,19 +364,36 @@
                             </label>
                         </form>
                     </div>
+
+                    <%--Giỏ hàng--%>
                     <a
-                        href=""
+                        href="Cart.aspx"
                         style="text-decoration: none; color: white; position: relative">
                         <i class="fas fa-cart-plus header-icon">
-                            <span class="nofication-qnt">0</span>
+                            <span class="nofication-qnt">
+                                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                            </span>
                         </i>
                     </a>
-                    <i class="fas fa-user header-icon"></i>
 
+                    <%--Đăng nhập--%>
+                    <li class="header-item nav-item nav-d1">
+                        <i class="fas fa-user header-icon"></i>
+                        <div class="sub-nav-d1">
+                            <ul>
+                                <li class="sub-nav-itemLink sub-nav-d1-item">
+                                    <a href="Login.aspx">Đăng nhập</a>
+                                </li>
+                                <li class="sub-nav-itemLink sub-nav-d1-item">
+                                    <a href="Register.aspx">Đăng ký</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
                 </div>
         </header>
     </div>
-    <form runat="server">
+    <form id="formm" runat="server">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </form>
