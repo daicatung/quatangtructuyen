@@ -16,6 +16,20 @@ namespace BUS
             dt = da.GetTable(sql);
             return dt;
         }
+        public DataTable ShowProductCategory(int Categoryid)
+        {
+            string sql = "SELECT * FROM   Product where CategoryID = '"+Categoryid+"' ";
+            DataTable dt = new DataTable();
+            dt = da.GetTable(sql);
+            return dt;
+        }
+        public DataTable ShowCategory()
+        {
+            string sql = "SELECT * FROM   Category";
+            DataTable dt = new DataTable();
+            dt = da.GetTable(sql);
+            return dt;
+        }
 
         public DataTable Show8AProduct(int id)
         {
@@ -39,9 +53,9 @@ namespace BUS
             dt = da.GetTable(sql);
             return dt;
         }
-        public DataTable ShowCategory()
+        public DataTable ShowCategoryy(int Categoryid)
         {
-            string sql = "SELECT * FROM Categoryy";
+            string sql = "SELECT * FROM Category WHERE CategoryID = '" + Categoryid+"'";
             DataTable dt = new DataTable();
             dt = da.GetTable(sql);
             return dt;

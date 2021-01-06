@@ -1,6 +1,7 @@
-﻿using BUS;
+﻿
 using System;
 using System.Data;
+using BUS;
 using System.Web.UI.WebControls;
 namespace QuaTrucTuyen247.page
 {

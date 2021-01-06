@@ -104,6 +104,7 @@
     <Content Include="page\Admin\User\UpdateUser.aspx" />
     <Content Include="page\Admin\User\User.aspx" />
     <Content Include="page\Cart.aspx" />
+    <Content Include="page\Category.aspx" />
     <Content Include="page\CSS\all.min.css" />
     <Content Include="page\CSS\all.min.js" />
     <Content Include="page\CSS\base.css" />
@@ -366,6 +367,13 @@
     </Compile>
     <Compile Include="page\Cart.aspx.designer.cs">
       <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page\Category.aspx.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Category.aspx.designer.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
     </Compile>
     <Compile Include="page\DetailProducts.aspx.cs">
       <DependentUpon>DetailProducts.aspx</DependentUpon>

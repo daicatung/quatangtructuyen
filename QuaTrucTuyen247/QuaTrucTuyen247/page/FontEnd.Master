@@ -71,10 +71,10 @@
                     <div class="row">
                         <div class="col l-6">
                             <div class="sub-nav-menu">
-                                <a href="" class="sub-nav-subLink new">Hoa </a>
+                                <a href="Category.aspx?CategoryID=1" class="sub-nav-subLink new">Hoa </a>
                                 <ul class="sub-nav-list">
                                     <li class="sub-nav-item">
-                                        <a href="" class="sub-nav-itemLink">Khô </a>
+                                        <a href="Category.aspx?CategoryID=2" class="sub-nav-itemLink">Khô </a>
                                     </li>
                                     <li class="sub-nav-item">
                                         <a href="" class="sub-nav-itemLink">Bất Tử </a>
@@ -91,10 +91,10 @@
 
                         <div class="col l-6">
                             <div class="sub-nav-menu">
-                                <a href="#" class="sub-nav-subLink">Để Bàn </a>
+                                <a href="Category.aspx?CategoryID=2" class="sub-nav-subLink">Để Bàn </a>
                                 <ul class="sub-nav-list">
                                     <li class="sub-nav-item">
-                                        <a href="" class="sub-nav-itemLink">Mô Hình Thuyền Buồm </a>
+                                        <a href="Category.aspx?CategoryID=2" class="sub-nav-itemLink">Mô Hình Thuyền Buồm </a>
                                     </li>
                                     <li class="sub-nav-item">
                                         <a href="" class="sub-nav-itemLink">Lọ Hoa </a>
@@ -126,7 +126,7 @@
 
                         <div class="col l-6">
                             <div class="sub-nav-menu">
-                                <a href="" class="sub-nav-subLink">Treo </a>
+                                <a href="Category.aspx?CategoryID=3" class="sub-nav-subLink">Treo </a>
                                 <ul class="sub-nav-list">
                                     <li class="sub-nav-item">
                                         <a href="" class="sub-nav-itemLink">Đồng Hồ Treo Tường </a>
@@ -139,7 +139,7 @@
                         </div>
                         <div class="col l-6">
                             <div class="sub-nav-menu">
-                                <a href="" class="sub-nav-subLink">Đồ Lưu Trữ </a>
+                                <a href="Category.aspx?CategoryID=7" class="sub-nav-subLink">Đồ Lưu Trữ </a>
                                 <ul class="sub-nav-list">
                                     <li class="sub-nav-item">
                                         <a href="" class="sub-nav-itemLink">Bộ Đựng Gia Vị </a>
@@ -170,7 +170,7 @@
                         </a>
                     </li>
                     <li class="header-item nav-item nav-d1">
-                        <a href="" class="nav-item-link">Thời Trang </a>
+                        <a href="Category.aspx?CategoryID=5" class="nav-item-link">Thời Trang </a>
                         <div class="sub-nav-d1">
                             <ul>
                                 <li class="sub-nav-itemLink sub-nav-d1-item sub-nav-itemMore">
@@ -214,7 +214,7 @@
                         </div>
                     </li>
                     <li class="header-item nav-item nav-d1">
-                        <a href="" class="nav-item-link">Tiện Ích </a>
+                        <a href="Category.aspx?CategoryID=6" class="nav-item-link">Tiện Ích </a>
                         <div class="sub-nav-d1">
                             <ul>
                                 <li class="sub-nav-itemLink sub-nav-d1-item">

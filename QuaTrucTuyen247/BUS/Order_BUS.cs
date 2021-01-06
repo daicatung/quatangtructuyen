@@ -27,7 +27,7 @@ namespace BUS
         }
         public void DeleteOrderDetail(int orderid)
         {
-            string sql = "DELETE FROM OrderDetail WHERE ProductID=" + orderid;
+            string sql = "DELETE FROM OrderDetail WHERE OrderID=" + orderid;
             dal.ExecuteNonQuery(sql);
         }
         public DataTable ShowPendingOrders()
