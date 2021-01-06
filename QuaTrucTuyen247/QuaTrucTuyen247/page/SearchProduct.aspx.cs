@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
 using BUS;
 
 namespace QuaTrucTuyen247.page
@@ -23,19 +24,36 @@ namespace QuaTrucTuyen247.page
             }
         }
 
-        protected void btnCart_Click(object sender, EventArgs e)
+        protected void DataList_ItemCommand(object source, DataListCommandEventArgs e)
         {
-            string a = Login.UserID;
-            string ID = Request.QueryString["ProductID"].ToString();
-            if (a == "0")
+            if ((e.CommandName == "addCart") && (e.CommandArgument != null))
             {
-                Response.Write("<script>alert('Bạn cần đăng nhập để mua hàng!')</script>");
-                Response.Redirect("~/page/Login.aspx");
-            }
-            else
-            {
-                Lo.InserOrder(a, ID, "1", "0");
-                Response.Write("<script>alert('Thêm sản phẩm vào giỏ hàng thành công!')</script>");
+                string a = Login.UserID;
+                bool isexited = false;
+                if (a == "0")
+                {
+                    Response.Write("<script>alert('Bạn cần đăng nhập để mua hàng!')</script>");
+                    Response.Redirect("~/page/Login.aspx");
+                }
+                else
+                {
+                    Label lbl = (Label)e.Item.FindControl("txtProductID");
+                    DataTable dt = Lo.ShowCartWithProductID(a, lbl.Text, "0");
+                    foreach (DataRow dr in dt.Rows)
+                    {
+                        int SL = Int32.Parse(dr["Amount"].ToString().Trim()) + 1;
+                        Lo.UpdateOrder(a, lbl.Text, SL.ToString());
+                        isexited = true;
+                        break;
+                    }
+                    if (!isexited)
+                    {
+                        Lo.InserOrder(a, lbl.Text, "1", "0");
+                    }
+
+                    Response.Write("<script>alert('Thêm sản phẩm vào giỏ hàng thành công!')</script>");
+                }
+
             }
         }
     }

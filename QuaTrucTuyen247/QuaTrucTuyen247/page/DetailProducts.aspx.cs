@@ -1,6 +1,7 @@
 ﻿using BUS;
 using DTO;
 using System;
+using System.Data;
 
 namespace QuaTrucTuyen247.page
 {
@@ -26,6 +27,7 @@ namespace QuaTrucTuyen247.page
         {
             string a = Login.UserID;
             string ID = Request.QueryString["ProductID"].ToString();
+            bool isexited = false;
             if (a == "0")
             {
                 Response.Write("<script>alert('Bạn cần đăng nhập để mua hàng!')</script>");
@@ -33,7 +35,19 @@ namespace QuaTrucTuyen247.page
             }
             else
             {
-                Lo.InserOrder(a, ID, "1","0");
+                DataTable dt = Lo.ShowCartWithProductID(a, ID, "0");
+                foreach (DataRow dr in dt.Rows)
+                {
+                    int SL = Int32.Parse(dr["Amount"].ToString().Trim()) + 1;
+                    Lo.UpdateOrder(a, ID, SL.ToString());
+                    isexited = true;
+                    break;
+                }
+                if (!isexited)
+                {
+                    Lo.InserOrder(a, ID, "1", "0");
+                }
+
                 Response.Write("<script>alert('Thêm sản phẩm vào giỏ hàng thành công!')</script>");
             }
         }

@@ -11,7 +11,7 @@ namespace QuaTrucTuyen247.page
         OrderDetail_BUS L = new OrderDetail_BUS();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!IsPostBack)
+            if (!IsPostBack)
             {
                 int id = 1;
                 DataTable dt = new DataTable();
@@ -26,7 +26,7 @@ namespace QuaTrucTuyen247.page
                 DataList2.DataBind();
                 DataList3.DataSource = dt3;
                 DataList3.DataBind();
-            }    
+            }
         }
 
         protected void DataList_ItemCommand(object source, DataListCommandEventArgs e)
@@ -34,6 +34,7 @@ namespace QuaTrucTuyen247.page
             if ((e.CommandName == "addCart") && (e.CommandArgument != null))
             {
                 string a = Login.UserID;
+                bool isexited = false;
                 if (a == "0")
                 {
                     Response.Write("<script>alert('Bạn cần đăng nhập để mua hàng!')</script>");
@@ -42,9 +43,22 @@ namespace QuaTrucTuyen247.page
                 else
                 {
                     Label lbl = (Label)e.Item.FindControl("txtProductID");
-                    L.InserOrder(a, lbl.Text, "1", "0");
+                    DataTable dt = L.ShowCartWithProductID(a, lbl.Text, "0");
+                    foreach (DataRow dr in dt.Rows)
+                    {
+                        int SL = Int32.Parse(dr["Amount"].ToString().Trim()) + 1;
+                        L.UpdateOrder(a, lbl.Text, SL.ToString());
+                        isexited = true;
+                        break;
+                    }
+                    if (!isexited)
+                    {
+                        L.InserOrder(a, lbl.Text, "1", "0");
+                    }
+
                     Response.Write("<script>alert('Thêm sản phẩm vào giỏ hàng thành công!')</script>");
                 }
+
             }
         }
     }

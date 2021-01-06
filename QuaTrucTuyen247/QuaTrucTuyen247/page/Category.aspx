@@ -18,7 +18,7 @@
         </asp:DataList>
     <div align="center">
         
-                <asp:DataList ID="DataList1" DataKeyField="ProductID" align="center" runat="server" RepeatColumns="3" Width="1200px">
+                <asp:DataList ID="DataList1" DataKeyField="ProductID" align="center" runat="server" RepeatColumns="3" Width="1200px" OnItemCommand="DataList_ItemCommand">
             <ItemTemplate>
                 
                 <asp:Label ID="txtProductID" Visible="false" runat="server" Text='<%# Eval("ProductID") %>' ></asp:Label>
