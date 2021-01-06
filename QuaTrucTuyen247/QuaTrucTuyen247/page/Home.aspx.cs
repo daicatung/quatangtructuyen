@@ -41,7 +41,7 @@ namespace QuaTrucTuyen247.page
                 else
                 {
                     Label lbl = (Label)e.Item.FindControl("txtProductID");
-                    L.InserOrder(a, lbl.Text, "1", "1");
+                    L.InserOrder(a, lbl.Text, "1", "0");
                     Response.Write("<script>alert('Thêm sản phẩm vào giỏ hàng thành công!')</script>");
                 }
             }

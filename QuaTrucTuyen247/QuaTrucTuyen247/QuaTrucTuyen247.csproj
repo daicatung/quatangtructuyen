@@ -93,6 +93,8 @@
     <Content Include="Images\User.PNG" />
     <Content Include="page\Admin\index.aspx" />
     <Content Include="page\Admin\Login.aspx" />
+    <Content Include="page\Admin\Order\Order.aspx" />
+    <Content Include="page\Admin\Order\OrderDetail.aspx" />
     <Content Include="page\Admin\Product\DetailManger.aspx" />
     <Content Include="page\Admin\Product\InsertProduct.aspx" />
     <Content Include="page\Admin\Product\Product.aspx" />
@@ -288,6 +290,20 @@
     <Compile Include="page\Admin\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="page\Admin\Order\Order.aspx.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\Order\Order.aspx.designer.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page\Admin\Order\OrderDetail.aspx.cs">
+      <DependentUpon>OrderDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page\Admin\Order\OrderDetail.aspx.designer.cs">
+      <DependentUpon>OrderDetail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="page\Admin\Product\DetailManger.aspx.cs">
       <DependentUpon>DetailManger.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -434,7 +450,6 @@
   <ItemGroup>
     <Folder Include="page\Admin\Category\" />
     <Folder Include="page\Admin\New\" />
-    <Folder Include="page\Admin\Order\" />
     <Folder Include="page\Admin\Vendor\" />
   </ItemGroup>
   <PropertyGroup>
