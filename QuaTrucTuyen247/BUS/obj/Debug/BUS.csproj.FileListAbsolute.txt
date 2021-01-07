@@ -29,3 +29,13 @@ C:\Users\Admin\Desktop\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.csproj
 C:\Users\Admin\Desktop\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\Admin\Desktop\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.dll
 C:\Users\Admin\Desktop\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.pdb
+C:\Users\Admin\Desktop\New folder\quatangtructuyen\QuaTrucTuyen247\BUS\bin\Debug\BUS.dll
+C:\Users\Admin\Desktop\New folder\quatangtructuyen\QuaTrucTuyen247\BUS\bin\Debug\BUS.pdb
+C:\Users\Admin\Desktop\New folder\quatangtructuyen\QuaTrucTuyen247\BUS\bin\Debug\DAL.dll
+C:\Users\Admin\Desktop\New folder\quatangtructuyen\QuaTrucTuyen247\BUS\bin\Debug\DTO.dll
+C:\Users\Admin\Desktop\New folder\quatangtructuyen\QuaTrucTuyen247\BUS\bin\Debug\DAL.pdb
+C:\Users\Admin\Desktop\New folder\quatangtructuyen\QuaTrucTuyen247\BUS\bin\Debug\DTO.pdb
+C:\Users\Admin\Desktop\New folder\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Admin\Desktop\New folder\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.dll
+C:\Users\Admin\Desktop\New folder\quatangtructuyen\QuaTrucTuyen247\BUS\obj\Debug\BUS.pdb

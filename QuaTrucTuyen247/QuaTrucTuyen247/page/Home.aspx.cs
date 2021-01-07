@@ -26,6 +26,11 @@ namespace QuaTrucTuyen247.page
                 DataList2.DataBind();
                 DataList3.DataSource = dt3;
                 DataList3.DataBind();
+
+                DataTable dt4 = new DataTable();
+                dt4 = bus.Show3Product();
+                DataList4.DataSource = dt4;
+                DataList4.DataBind();
             }
         }
 

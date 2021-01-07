@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <img src="Images/anhheader.PNG" />
     <div align="center">
-        <p style="background-color: deeppink; color: white; width: 1200px; height: 50px; line-height: 50px; font-size: 20px; margin-top: 30px; margin-bottom: 30px">Quà tặng giáng sinh 2020</p>
+        <p style="background-color: deeppink; color: white; width: 1200px; height: 50px; line-height: 50px; font-size: 20px; margin-top: 30px; margin-bottom: 30px"> <a style="color:white;" href="Category.aspx?CategoryID=1">Quà tặng giáng sinh 2020</a></p>
         <asp:DataList ID="DataList1" DataKeyField="ProductID" align="center" runat="server" RepeatColumns="4" Width="1200px" OnItemCommand="DataList_ItemCommand">
             <ItemTemplate>
                 <asp:Label ID="txtProductID" Visible="false" runat="server" Text='<%# Eval("ProductID") %>'></asp:Label>
@@ -41,7 +41,7 @@
             </ItemTemplate>
         </asp:DataList>
 
-        <p style="background-color: deeppink; color: white; width: 1200px; height: 50px; line-height: 50px; font-size: 20px; margin-top: 30px; margin-bottom: 30px">Quà tặng LuvGift</p>
+         <p style="background-color: deeppink; color: white; width: 1200px; height: 50px; line-height: 50px; font-size: 20px; margin-top: 30px; margin-bottom: 30px"> <a style="color:white;" href="Category.aspx?CategoryID=2">Quà tặng LuvGift</a></p>
         <asp:DataList ID="DataList2" OnItemCommand="DataList_ItemCommand" DataKeyField="ProductID" align="center" runat="server" RepeatColumns="4" Width="1200px">
             <ItemTemplate>
                 <asp:Label ID="txtProductID" Visible="false" runat="server" Text='<%# Eval("ProductID") %>'></asp:Label>
@@ -76,7 +76,7 @@
                 </table>
             </ItemTemplate>
         </asp:DataList>
-        <p style="background-color: deeppink; color: white; width: 1200px; height: 50px; line-height: 50px; font-size: 20px; margin-top: 30px; margin-bottom: 30px">Quà tặng giáng sinh cho bé</p>
+         <p style="background-color: deeppink; color: white; width: 1200px; height: 50px; line-height: 50px; font-size: 20px; margin-top: 30px; margin-bottom: 30px"> <a style="color:white;" href="Category.aspx?CategoryID=3">Quà tặng giáng sinh cho bé</a></p>
         <asp:DataList ID="DataList3" OnItemCommand="DataList_ItemCommand" DataKeyField="ProductID" align="center" runat="server" RepeatColumns="4" Width="1200px">
             <ItemTemplate>
                 <asp:Label ID="txtProductID" Visible="false" runat="server" Text='<%# Eval("ProductID") %>'></asp:Label>
@@ -109,6 +109,42 @@
                         </td>
                     </tr>
                 </table>
+            </ItemTemplate>
+        </asp:DataList>
+        
+        <p style="background-color: deeppink; color: white; width: 1200px; height: 50px; line-height: 50px; font-size: 20px; margin-top: 30px; margin-bottom: 30px">Top 3 Sản Phẩm Bán Chạy Nhất</p>
+        <asp:DataList ID="DataList4" DataKeyField="ProductID" align="center" runat="server" RepeatColumns="4" Width="1200px" OnItemCommand="DataList_ItemCommand">
+            <ItemTemplate>
+                <asp:Label ID="txtProductID" Visible="false" runat="server" Text='<%# Eval("ProductID") %>'></asp:Label>
+                <table class="myBox">
+                    <tr>
+                        <td style="width: 97px">
+                            <asp:HyperLink ID="HyperLink1" runat="server" ImageHeight="280" ImageUrl='<%# Eval("Photo") %>' ImageWidth="240" NavigateUrl='<%# "DetailProducts.aspx?ProductID=" + Eval("ProductID").ToString() %>'>
+                            </asp:HyperLink>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p style="font-size: 16px; font-weight: 500; margin-top: 15px; margin-bottom: 15px">
+                                <asp:Literal ID="Literal1" Text='<%# Eval("ProductName") %>' runat="server"></asp:Literal></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p style="font-size: 16px; color: red; margin-left: 80px">
+                                <asp:Literal ID="Literal2" Text='<%# Eval("Cost") %>' runat="server"></asp:Literal>
+                                đ</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p style="margin-top: 15px; margin-bottom: 15px; color: red">
+                                </p>
+                        </td>
+                    </tr>
+                </table>
+                <asp:Button ID="ButCart" runat="server" CommandName="addCart" Text="Chọn Quà này" Width="240px" Height="40px" />
+                <p style="margin-bottom:30px"></p>
             </ItemTemplate>
         </asp:DataList>
     </div>

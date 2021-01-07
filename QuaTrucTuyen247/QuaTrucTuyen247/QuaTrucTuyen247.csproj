@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Global.asax" />
     <Content Include="Images\Cart.PNG" />
     <Content Include="Images\logo-quatructuyen_trang_1_5.png" />
     <Content Include="Images\paymentquatructuyen.png" />
@@ -150,6 +151,7 @@
     <Content Include="page\Login.aspx" />
     <Content Include="page\Register.aspx" />
     <Content Include="page\SearchProduct.aspx" />
+    <Content Include="page\SLTC.txt" />
     <Content Include="Public\bootstrap\css\bootstrap-grid.css" />
     <Content Include="Public\bootstrap\css\bootstrap-grid.min.css" />
     <Content Include="Public\bootstrap\css\bootstrap-reboot.css" />
@@ -270,6 +272,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="page\Admin\Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -91,6 +91,12 @@ namespace BUS
             da.ExecuteNonQuery(sql);
         }
 
-     
+        public DataTable Show3Product()
+        {
+            string sql = "SELECT TOP 3* FROM Product ORDER BY Cost DESC";
+            DataTable dt = new DataTable();
+            dt = da.GetTable(sql);
+            return dt;
+        }
     }
 }
