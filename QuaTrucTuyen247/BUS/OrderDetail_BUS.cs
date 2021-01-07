@@ -19,6 +19,7 @@ namespace BUS
             dt = da.GetTable(sql);
             return dt;
         }
+
         public DataTable ShowCartWithProductID(string UserID, string ProductID, string state)
         {
             string sql = "select Amount from OrderDetail where UserID='"+UserID+"' and ProductID='"+ProductID+"' and State='"+state+"'";
@@ -26,6 +27,15 @@ namespace BUS
             dt = da.GetTable(sql);
             return dt;
         }
+
+        public DataTable ShowAmount(string ID,string state)
+        {
+            string sql = "select SUM(Amount) as Tong from OrderDetail where OrderDetail.UserID ='" + ID + "'and OrderDetail.State='" + state + "' Group By UserID";
+            DataTable dt = new DataTable();
+            dt = da.GetTable(sql);
+            return dt;
+        }
+
         public DataTable show()
         {
             string sql = "select Product.ProductID, OrderDetail.UserID, Product.Photo, Product.ProductName, Product.Cost, OrderDetail.Amount, OrderDetail.Amount*Product.Cost as Total from Product inner join OrderDetail on Product.ProductID = OrderDetail.ProductID";

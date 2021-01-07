@@ -66,7 +66,7 @@
                 </div>
                 <ul class="header-list" style="min-width: 600px;">
                     <li class="header-item nav-item nav-d2">
-                        <a href="#" class="nav-item-link">Trang trí
+                        <a href="Category.aspx?CategoryID=2" class="nav-item-link">Trang trí
                 <div class="show-sub sub-nav-d2">
                     <div class="row">
                         <div class="col l-6">

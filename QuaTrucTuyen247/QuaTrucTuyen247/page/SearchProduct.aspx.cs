@@ -51,7 +51,7 @@ namespace QuaTrucTuyen247.page
                         Lo.InserOrder(a, lbl.Text, "1", "0");
                     }
 
-                    Response.Write("<script>alert('Thêm sản phẩm vào giỏ hàng thành công!')</script>");
+                    Response.Redirect("~/page/home.aspx");
                 }
 
             }
